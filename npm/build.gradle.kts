@@ -33,7 +33,7 @@ configurations.all {
 }
 
 dependencies {
-    implementation("com.whichlicense:seeker:0.1.0-SNAPSHOT")
+    implementation("com.whichlicense:seeker:0.1.1-SNAPSHOT")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.2")
     testImplementation("org.assertj:assertj-core:3.24.2")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.9.2")
