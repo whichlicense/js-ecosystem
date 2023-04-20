@@ -8,3 +8,7 @@ updates:
     directory: "/npm/"
     schedule:
       interval: "daily"
+  - package-ecosystem: "gradle"
+    directory: "/yarn/"
+    schedule:
+      interval: "daily"
