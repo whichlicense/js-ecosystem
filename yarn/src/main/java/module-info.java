@@ -9,7 +9,7 @@ import com.whichlicense.metadata.seeker.MetadataSeeker;
 import com.whichlicense.metadata.seeker.yarn.YarnLockSeeker;
 
 module whichlicense.seeker.yarn {
-    requires transitive whichlicense.seeker;
+    requires whichlicense.seeker;
     exports com.whichlicense.metadata.seeker.yarn;
     provides MetadataSeeker with YarnLockSeeker;
 }

@@ -10,7 +10,7 @@ import com.whichlicense.metadata.seeker.npm.NpmPackageLockSeeker;
 import com.whichlicense.metadata.seeker.npm.NpmPackageSeeker;
 
 module whichlicense.seeker.npm {
-    requires transitive whichlicense.seeker;
+    requires whichlicense.seeker;
     exports com.whichlicense.metadata.seeker.npm;
     provides MetadataSeeker with NpmPackageSeeker, NpmPackageLockSeeker;
 }
