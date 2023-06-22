@@ -11,11 +11,11 @@ plugins {
 }
 
 group = "com.whichlicense.seeker"
-version = "0.2.0-SNAPSHOT"
+version = "0.7.6-SNAPSHOT"
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(19))
+        languageVersion.set(JavaLanguageVersion.of(20))
     }
     withJavadocJar()
     withSourcesJar()
@@ -33,7 +33,7 @@ configurations.all {
 }
 
 dependencies {
-    api("com.whichlicense:seeker:0.2.0-SNAPSHOT")
+    api("com.whichlicense:seeker:0.7.6-SNAPSHOT")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.3")
     testImplementation("org.assertj:assertj-core:3.24.2")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.9.3")
