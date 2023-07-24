@@ -36,7 +36,7 @@ dependencies {
     api("com.whichlicense:seeker:0.7.6-SNAPSHOT")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.3")
     testImplementation("org.assertj:assertj-core:3.24.2")
-    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.9.3")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.10.0")
 }
 
 tasks.withType<JavaCompile> {
